@@ -4,6 +4,7 @@ import urllib
 
 TOKEN = "<YOUR TOKEN GOES HERE>"
 URL = "https://permagame.app.norsys.io/api"
+ADVANCED_INFOS_PATH = "/advancedInfos"
 STATE_PATH = "/state"
 ACTION_PATH = "/action"
 ACTION_LIST_PATH = "/actionList"
@@ -22,6 +23,9 @@ def fetchPlantFamilies():
 
 def fetchState():
     return _fetchAndParseData(URL + STATE_PATH)
+    
+def fetchAdvancedInfos():
+    return _fetchAndParseData(URL + ADVANCED_INFOS_PATH)
 
 def fetchGarden():
     data = fetchState()
