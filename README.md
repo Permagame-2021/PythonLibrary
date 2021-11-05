@@ -4,7 +4,7 @@
 
 Clonez la librairie disponible au-dessus ! En voici quelques exemple d'utilisation.
 
-## Authentification
+## S'authentifier
 
 ```python
 TOKEN = "<YOUR TOKEN GOES HERE>"
@@ -19,7 +19,7 @@ Pour vous connecter cliquez sur l'onglet "Login" en haut à droite de cette fen�
 Une fois connecté, il vous faut récuperer le token en cliquant sur "COPY TOKEN"<br/>
 Et enfin vous pourrez placer ce token dans le code juste au dessus à l'endroit indiqué.
 
-## Fetch the Game
+## Récupérer l'état de la partie
 
 ```python
 game = fetchState()
@@ -34,7 +34,7 @@ Vous pouvez maintenant analyser l'état du jeu
 Ceci est une parcelle, et comme vous pouvez le voir elle est vide... <br/>
 C'est bien triste une parcelle vide, ne serait-il pas possible de l'égayer un peu ?
 
-## Plant
+## Planter
 
 ```python
 plant(line, column, "CORN")
@@ -50,7 +50,7 @@ Voyons voir le resultat...
 Votre plante est en pleine croissance,<br/>
 Et je peux même vous dire qu'il s'agira d'un maïs.
 
-## Harvest
+## Récolter
 
 ```python
 harvest(line, column)
@@ -66,7 +66,7 @@ Ceci était une fin heureuse
 Si vous tardez à récolter en revanche,<br/>
 une fin plus tragique attend votre plante...
 
-## Fertilize
+## Fertiliser
 
 ```python
 fertilize(line, column)
@@ -85,7 +85,7 @@ Pour éviter cela, pensez à fertiliser les parcelles de temps en temps.
 
 <img src="https://raw.githubusercontent.com/Permagame-2021/python-bot/master/screenshots/actionFertilize.png" title="actionFertilize" className="otherImages">
 
-## Plant Types
+## Les différents plantes
 
 ```python
 plants = fetchPlantsTypes();
@@ -95,7 +95,7 @@ plants = fetchPlantsTypes();
 
 Vous pouvez Récuperer des informations génerales sur les plantes afin d'étudier leurs rendements, ou encore leurs Familles.
 
-## Plant Families
+## Les différentes familles de plantes
 
 ```python
 plantFamilies = fetchPlantFamilies();
@@ -103,7 +103,7 @@ plantFamilies = fetchPlantFamilies();
 
 Vous pouvez également récupérer les familles de plante et les plantes qui en font parties.
 
-## Action List
+## La liste des actions courantes
 
 ```python
 actions = fetchAllActions();
