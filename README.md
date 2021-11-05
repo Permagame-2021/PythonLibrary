@@ -13,7 +13,7 @@ URL = "https://permagame.app.norsys.io/api"
 
 <img src="https://raw.githubusercontent.com/Permagame-2021/python-bot/master/screenshots/login.png" title="login" className="otherImages">
 
-Halte, qui va la ?<br/>
+Halte, qui va là ?<br/>
 Je sais que vous avez hate de jardiner, mais il faut vous connecter !<br/>
 Pour vous connecter cliquez sur l'onglet "Login" en haut à droite de cette fenêtre<br/>
 Une fois connecté, il vous faut récuperer le token en cliquant sur "COPY TOKEN"<br/>
